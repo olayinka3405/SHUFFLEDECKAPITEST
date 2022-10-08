@@ -1,0 +1,79 @@
+{
+	"id": "8385df7e-7bbd-4227-b06e-05fd56af82c0",
+	"name": "6 API Test-ShuffleDeck",
+	"timestamp": "2022-10-08T11:50:34.598Z",
+	"collection_id": "23092539-a9e27ddf-10ac-4804-bd25-35a4fd9e9e2b",
+	"folder_id": 0,
+	"environment_id": "23092539-a52c2d6b-5ce3-422b-8e03-b54b297db9ce",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2fe268ec-b718-47bd-8e27-11e4c642cdff",
+			"name": "ShuffleCards",
+			"url": "https://www.deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Your test name": true,
+				"Response time is less than 200ms": true,
+				"Successful GET request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Your test name": true,
+					"Response time is less than 200ms": true,
+					"Successful GET request": true,
+					"Status code name has string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 149,
+	"collection": {
+		"requests": [
+			{
+				"id": "2fe268ec-b718-47bd-8e27-11e4c642cdff",
+				"method": "GET"
+			}
+		]
+	}
+}
